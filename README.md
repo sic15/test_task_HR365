@@ -20,23 +20,23 @@
 ## Запуcк проекта: 
 
 1) Клонировать репозиторий и перейти в него в командной строке:
-git@github.com:sic15/test_task_HR365.git
+`git@github.com:sic15/test_task_HR365.git`
 
 2) Перейти в папку catalog:
-cd test_task_HR365/HR_365/
+`cd test_task_HR365/HR_365/`
 
 3) Cоздать и активировать виртуальное окружение:
-python -m venv venv 
-source venv/scripts/activate
+`python -m venv venv `
+`source venv/scripts/activate`
 
 4) Установить зависимости из файла requirements.txt:
-python -m pip install --upgrade pip pip install -r requirements.txt
+`python -m pip install --upgrade pip pip install -r requirements.txt`
 
 5) Выполнить миграции:
-python manage.py migrate
+`python manage.py migrate`
 
 6) Запустить проект:
-python manage.py runserver
+`python manage.py runserver`
 
 ## Об авторе 
 Автор проекта Наталья Арлазарова
